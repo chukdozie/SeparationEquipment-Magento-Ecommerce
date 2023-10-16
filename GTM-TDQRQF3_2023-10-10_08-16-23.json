@@ -1,0 +1,459 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2023-10-10 08:16:23",
+    "containerVersion": {
+        "path": "accounts/6051561899/containers/90085551/versions/0",
+        "accountId": "6051561899",
+        "containerId": "90085551",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/6051561899/containers/90085551",
+            "accountId": "6051561899",
+            "containerId": "90085551",
+            "publicId": "GTM-TDQRQF3",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1696925783",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6051561899/containers/90085551/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "6051561899",
+                "containerId": "90085551",
+                "tagId": "163",
+                "name": "Magefan GA4 - Configuration",
+                "type": "gaawc",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendPageView",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableSendToServerContainer",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementId",
+                        "value": "G-XWR56CL50Q"
+                    }
+                ],
+                "fingerprint": "1696925783",
+                "firingTriggerId": [
+                    "162"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6051561899",
+                "containerId": "90085551",
+                "tagId": "169",
+                "name": "Magefan GA4 - Ecommerce",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "getEcommerceDataFrom",
+                        "value": "dataLayer"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "{{Event}}"
+                    },
+                    {
+                        "type": "TAG_REFERENCE",
+                        "key": "measurementId",
+                        "value": "Magefan GA4 - Configuration"
+                    }
+                ],
+                "fingerprint": "1696925783",
+                "firingTriggerId": [
+                    "167"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6051561899",
+                "containerId": "90085551",
+                "tagId": "183",
+                "name": "Magefan - Conversion Linker",
+                "type": "gclidw",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableCrossDomain",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableUrlPassthrough",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableCookieOverrides",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1696925783",
+                "firingTriggerId": [
+                    "162"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6051561899",
+                "containerId": "90085551",
+                "tagId": "184",
+                "name": "Magefan Google Ads - Conversion Tracking",
+                "type": "awct",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableNewCustomerReporting",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "orderId",
+                        "value": "{{Magefan DLV - Transaction ID}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableProductReporting",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEnhancedConversion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionValue",
+                        "value": "{{Magefan DLV - Value}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionCookiePrefix",
+                        "value": "_gcl"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableShippingData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "AW-1071965206"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "currencyCode",
+                        "value": "{{Magefan DLV - Currency}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "B3rvCKXD-4QYEJbIk_8D"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1696925783",
+                "firingTriggerId": [
+                    "257"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6051561899",
+                "containerId": "90085551",
+                "tagId": "258",
+                "name": "Magefan Google Ads - Remarketing",
+                "type": "sp",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventItems",
+                        "value": "{{Magefan DLV - Items}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventValue",
+                        "value": "{{Magefan DLV - Value}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableDynamicRemarketing",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "{{Event}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionCookiePrefix",
+                        "value": "_gcl"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "AW-1071965206"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "B3rvCKXD-4QYEJbIk_8D"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "customParamsFormat",
+                        "value": "NONE"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1696925783",
+                "firingTriggerId": [
+                    "167"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6051561899",
+                "containerId": "90085551",
+                "triggerId": "167",
+                "name": "Magefan GTM - Ecommerce",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "view_item|view_cart|purchase|begin_checkout|view_item_list|add_to_cart|remove_from_cart|add_payment_info|add_shipping_info|add_to_wishlist"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1696925783"
+            },
+            {
+                "accountId": "6051561899",
+                "containerId": "90085551",
+                "triggerId": "162",
+                "name": "Magefan GTM - Configuration",
+                "type": "PAGEVIEW",
+                "fingerprint": "1696925783"
+            },
+            {
+                "accountId": "6051561899",
+                "containerId": "90085551",
+                "triggerId": "257",
+                "name": "Magefan GTM - Purchase",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "purchase"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1696925783"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6051561899",
+                "containerId": "90085551",
+                "variableId": "253",
+                "name": "Magefan DLV - Value",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ecommerce.value"
+                    }
+                ],
+                "fingerprint": "1696925783",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6051561899",
+                "containerId": "90085551",
+                "variableId": "254",
+                "name": "Magefan DLV - Transaction ID",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ecommerce.transaction_id"
+                    }
+                ],
+                "fingerprint": "1696925783",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6051561899",
+                "containerId": "90085551",
+                "variableId": "255",
+                "name": "Magefan DLV - Currency",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ecommerce.currency"
+                    }
+                ],
+                "fingerprint": "1696925783",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6051561899",
+                "containerId": "90085551",
+                "variableId": "260",
+                "name": "Magefan DLV - Items",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ecommerce.items"
+                    }
+                ],
+                "fingerprint": "1696925783",
+                "formatValue": {}
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6051561899",
+                "containerId": "90085551",
+                "type": "EVENT",
+                "name": "Event"
+            }
+        ],
+        "fingerprint": "1696925783",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6051561899/containers/90085551/versions/0?apiLink=version"
+    }
+}
